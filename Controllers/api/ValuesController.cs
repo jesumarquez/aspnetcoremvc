@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace aspnetcoremvc
 {
     [Route("api/[controller]")]
-    public class ValuesController
+    public class ValuesController : Controller
     {
         [HttpGet]
         public IEnumerable<string> Get()
